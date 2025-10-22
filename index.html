@@ -4,50 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header -->
      <header>
         <div class="logo">
-            <img src="" alt="">
+            <img src="./images/Logo.png" alt="">
+            <h1>Brooklyn</h1>
         </div>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li id="home" class="active"><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Service</a></li>
+            <li id="contact" class="active"><a href="">Contact</a></li>
         </ul>
      </header>
      
      <!--Hero Section -->
-     <section>
-        <div class="right">
-            <h1>
+     <section id="hero-section">
+        <div class="hero-left">
+            <h1>Hello, I’m <br> Brooklyn Gilbert
             </h1>
-            <p></p>
-            <button></button>
+            <p>I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+            <button>Say Hello</button>
+
+            <div class="hero-left-below-buttons">
+                <div class="hero-button">
+                    <H2>15Y</H2>
+                    <P>Experience</P>
+                </div>
+                <div class="hero-button">
+                    <H2>250+</H2>
+                    <P>Project Completed</P>
+                </div>
+                <div class="hero-button">
+                    <H2>58</H2>
+                    <P>Happy Clients</P>
+                </div>
+            </div>
         </div>
-        <div class="left">
-            <img src="" alt="">
+        <div class="hero-right">
+            <img src="./images/Person Hero Right Pic.png" alt="">
         </div>
      </section>
 
-     <!--Card Section -->
-     <section>
-        <div class="card">
-            <div class="header">
-
-            </div>
-            <section>
-
-            </section>
-            <div class="content">
-
+     <!--About Section -->
+     <section id="about">
+        <div class="about-left">
+            <img src="./images/Person Banner left Pic.png" alt="">
+        </div>
+        <div class="about-right">
+            <h1>I am Professional User Experience Designer
+            </h1>
+            <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.
+            I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
+            <div class="about-buttons">
+                <button>My Project</button> 
+                <button id="download-cv">Download CV</button>
             </div>
         </div>
      </section>
 
-
+     <!--Work Process-->
+     <section id="process">
+        
+     </section>
 
 </body>
 </html>
