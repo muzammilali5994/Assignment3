@@ -256,5 +256,80 @@ ul li a:hover{
     margin-bottom: 10px;
 }
 
+#blog{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.blog .card-area .card{
+    border: none;
+}
+.card-area{
+    width: 90%;
+    white-space: normal;
+    margin-left: 70px;
+}
+.blog .card-area .card{
+    width: 20%;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.blog .card-area .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#contact {
+    width: 100%;
+    background-color: rgb(245, 244, 242);
+    padding: 50px 0; /* reduced overall padding */
+    text-align: center; /* centers inline-blocks horizontally */
+}
+
+.contact-area {
+    background-color: white;
+    display: inline-block;
+    width: 90%;
+    text-align: left; /* reset from parent */
+    white-space: nowrap;
+}
+
+.contact-left,
+.contact-right {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top; /* ✅ keeps both sides aligned at the top */
+    padding: 40px; /* reduced from 100px */
+    box-sizing: border-box; /* ensures padding doesn't expand width */
+}
+.contact-right p{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.contact-right input {
+    display: block;              /* makes each input start on a new line */
+    width: 100%;                 /* full width of the parent container */
+    margin-bottom: 15px;         /* space between inputs */
+    padding: 10px;               /* inner spacing */
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;      /* prevents padding from overflowing */
+}
+.contact-right button{
+    background-color: rgba(162, 60, 253);
+    padding: 14px;
+    width: 110px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 40%;
+}
+
+
 
 
