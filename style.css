@@ -174,6 +174,87 @@ ul li a:hover{
 .about-right #download-cv{
     background-color: rgb(235, 231, 231);
     color: black;
-
 }
+
+#process{
+    background-color: rgb(231, 228, 228);
+    width: 100%;
+    height: 550px;
+    padding: 150px;
+    white-space: nowrap;
+}
+.left-work,
+.right-work{
+    display: inline-block;
+    width: 50%;
+}
+.left-work{
+    background-color: transparent;
+    white-space: normal;
+}
+.right-work {
+  white-space: normal; /* ✅ allows wrapping to next line */
+}
+.right-work .research,
+.right-work .analyze,
+.right-work .design,
+.right-work .lunch {
+  display: inline-block;
+  width: 45%;      /* ✅ two per line */
+  margin-bottom: 20px;
+  vertical-align: top;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.right-work .research h1,
+.right-work .analyze h1,
+.right-work .design h1,
+.right-work .lunch h1{
+    margin-bottom: 10px;
+}
+
+#portfolio{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.heading h1{
+    margin-bottom: 20px;
+}
+.card-area{
+    width: 90%;
+    white-space: normal;
+    margin-left: 70px;
+}
+.card-area .card{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-area .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-area .card p{
+    margin-bottom: 15px;
+}
+.card-area .card button{
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-area .card .p{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
 
